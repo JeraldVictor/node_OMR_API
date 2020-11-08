@@ -4,10 +4,8 @@ const { encrypt, uid } = require("../utils");
 module.exports = {
   async index(req, res) {
     try {
-      let users = await User.findAll();
       res.status(200).json({
         message: "Hello",
-        users,
       });
     } catch (error) {
       res.status(400).json({
