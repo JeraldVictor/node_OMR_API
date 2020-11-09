@@ -2,31 +2,31 @@
 
 This is a express restfull api POC for Sequelize (ORM).
 
-# API End points are
+## API End points are
 
 > /login
 
-- POST methord
+- POST method
 - required email,password
-- responce will be email,password,name,authentication key,user id.
+- response will be email,password,name,authentication key,user id.
 
 > /register
 
-- POST methord
+- POST method
 - required name,email,password
-- responce will be email,password,name,user id, authentication key.
+- response will be email,password,name,user id, authentication key.
 
 > /home
 
-- GET methord (Needs Authentication)
-- required authentication key in the header link header "Key" value as "auth key sent while responce"
-- responce will be a JSON message "Hello"
+- GET method (Needs Authentication)
+- required authentication key in the header like header name "Key" value as "auth key sent while response"
+- response will be a JSON message "Hello"
 
 > /logout
 
-- GET methord
-- required authentication key in the header link header "Key" value as "auth key sent while responce"
-- responce will be JSON message "Thank You".
+- GET method
+- required authentication key in the header like header name "Key" value as "auth key sent while response"
+- response will be JSON message "Thank You".
 
 ### Installation:
 
