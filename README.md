@@ -9,7 +9,9 @@ This is a express restfull api POC for Sequelize (ORM).
 - POST methord
 - required email,password
 - responce will be email,password,name,authentication key,user id.
-  > /register
+
+> /register
+
 - POST methord
 - required name,email,password
 - responce will be email,password,name,user id, authentication key.
@@ -19,16 +21,12 @@ This is a express restfull api POC for Sequelize (ORM).
 - GET methord (Needs Authentication)
 - required authentication key in the header link header "Key" value as "auth key sent while responce"
 - responce will be a JSON message "Hello"
-  > /logout
+
+> /logout
+
 - GET methord
 - required authentication key in the header link header "Key" value as "auth key sent while responce"
 - responce will be JSON message "Thank You".
-
-You can also:
-
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
 
 ### Installation:
 
